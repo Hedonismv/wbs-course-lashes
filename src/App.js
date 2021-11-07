@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import MainPage from "./pages/MainPage/MainPage";
+import {HashRouter} from "react-router-dom";
+import AboutPage from "./pages/AboutPage/AboutPage";
+import WaitPage from "./pages/WaitPage/WaitPage";
+import QuestionPage from "./pages/QuestionPage/QuestionPage";
+import RatePage from "./pages/RatePage/RatePage";
+import Footer from "./components/Footer/Footer";
+import {BrowserRouter} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <HashRouter>
+        <MainPage/>
+        <AboutPage/>
+        <WaitPage/>
+        <QuestionPage/>
+        <RatePage/>
+        <Footer/>
+      </HashRouter>
+    </BrowserRouter>
   );
 }
 
