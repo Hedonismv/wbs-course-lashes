@@ -1,0 +1,21 @@
+.main_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    white-space: pre-line;
+
+    color: #4C3D74 !important;
+}
+.boldSpan{
+    font-weight: 700;
+}
+
+.new-line {
+    white-space: pre-line;
+}
