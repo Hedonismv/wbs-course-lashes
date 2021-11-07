@@ -13,7 +13,10 @@ const RateComponent = (props) => {
         <div className={style.rateComponent}>
             <div className={style.rateComponentContainer}>
                 {useCalc
-                    ? <Calculator price={props.price}/>
+                    ? <><Calculator price={props.price}/>
+                        <div className={style.closeCalcBlock}>
+                            <div onClick={() => setUseCalc(false)}>Назад</div>
+                        </div></>
                     :
                     <>
                     <div className={style.RateComponentText}>
@@ -28,7 +31,7 @@ const RateComponent = (props) => {
                         </div>
                         <div className={style.RateComponentTextBottom}>ДЛИТЕЛЬНОСТЬ 14 ДНЕЙ</div>
                         <div className={style.RateComponentPriceBlock}>
-                            <div onClick={() => setUseCalc(true)}>Рассчитать рассрочку</div>
+                            <div style={{cursor: "pointer"}} onClick={() => setUseCalc(true)}>Рассчитать рассрочку</div>
                             <div>{props.price}&nbsp;Р.</div>
                         </div>
                     </div>

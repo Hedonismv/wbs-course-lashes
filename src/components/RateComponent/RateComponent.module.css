@@ -88,3 +88,19 @@
 .RateComponentTextDescription{
     margin-top: 8px;
 }
+
+.closeCalcBlock{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.closeCalcBlock div {
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4C3D74;
+}
