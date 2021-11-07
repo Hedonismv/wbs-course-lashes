@@ -1,0 +1,59 @@
+.formCalcMain{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+}
+
+.formCalcMain input{
+    border-radius: 5px;
+    border:1px solid #A387C4;
+    height: 35px;
+    margin-top: 25px;
+    color: #251933;
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+
+}
+
+.formCalcMain input:focus-visible{
+    border: 1px solid darkolivegreen !important;
+}
+
+.submitInput{
+    width: 50%;
+    align-self: center;
+    background: #A387C4;
+    color: white !important;
+    font-weight: normal !important;
+    cursor: pointer;
+    transition: background 0.7s;
+}
+
+.submitInput:hover{
+    background: #4C3D74;
+    border:1px solid #4C3D74;
+}
+
+.error{
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: darkred;
+}
+
+.resultBlock div{
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4C3D74;
+}
+
+.resultBlock{
+    margin-top: 20px;
+}
+
