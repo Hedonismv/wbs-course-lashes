@@ -1,0 +1,28 @@
+.button {
+    border-radius: 30px;
+    color: white;
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    width: 245px;
+    height: 60px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.primary{
+    background-color: #A387C4;
+    border: 3px solid #A387C4;
+}
+
+.secondary{
+    background-color: #4C3D74;
+    border: 3px solid #A387C4;
+}
+
+.relativeBtn{
+    position: relative;
+    top: 20px;
+}
