@@ -1,0 +1,34 @@
+.QuestionComponent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top:3px solid #4C3D74;
+}
+
+.hiddenText{
+}
+.visibleText{
+    padding: 1rem 0 0 0;
+}
+
+.plus{
+    cursor: pointer;
+}
+
+.TextQuestion{
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+
+    /* identical to box height, or 27px */
+
+
+    color: #4C3D74;
+}
+
+.TextComponent{
+    padding: 17px 0;
+}
