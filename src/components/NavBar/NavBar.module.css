@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+.navbar span{
+    color: white;
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.navbarLink{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarLink a{
+    padding-right: 27px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+}
