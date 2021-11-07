@@ -1,0 +1,90 @@
+.rateComponent{
+    background: #F2EEF7;
+    border: 3px solid #4C3D74;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 364px;
+}
+.newButton{
+    position: relative;
+    left: 14%;
+    width: 245px;
+    top: 5%;
+    height: 60px;
+}
+
+.btnComponent{
+    display: flex;
+    justify-content: center;
+}
+
+.RateComponentText{
+    display: flex;
+    flex-direction: column;
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    color: #4C3D74;
+    margin-top: 11px;
+
+}
+.RateComponentPriceBlock{
+    display: flex;
+    justify-content: space-between;
+}
+
+.RateComponentTextBottom{
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    color: #4C3D74;
+
+    margin-top: 18px;
+}
+
+.RateComponentTextHeader{
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    color: #4C3D74;
+    margin-top: 57px;
+}
+.textMargin{
+    margin-left: 13px;
+}
+
+.rateComponentContainer{
+    max-width: 300px;
+    margin: auto;
+}
+.RateComponentTextDescription div{
+    margin-top: 8px;
+    align-items: baseline;
+    display: flex;
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #4C3D74;
+}
+
+.RateComponentTextDescription{
+    margin-top: 8px;
+}
