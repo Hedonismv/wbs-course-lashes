@@ -1,0 +1,40 @@
+.footer{
+    background: #251933;
+    height: 340px;
+}
+
+.container{
+    margin: auto;
+    max-width: 1170px;
+}
+
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 125px;
+
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    color: #FFFFFF;
+}
+
+.footerContentLeft{
+    text-align: left;
+    width: 30%;
+}
+
+.footerContentRight{
+    text-align: right;
+    text-decoration: underline;
+    width: 30%;
+}
+.footerContentCenter{
+    text-align: center;
+    width: 30%;
+}
