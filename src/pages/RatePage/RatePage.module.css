@@ -1,0 +1,53 @@
+.mainBlock{
+    background: #4C3D74;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.topH1{
+    padding-top: 168px;
+    margin: 0 0 45px 0;
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 66px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.rateComponents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.RatePageFooter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 93px;
+    padding-bottom: 177px;
+}
+
+.RatePageFooterLeft{
+    display: flex;
+    width: 57%;
+}
+
+.RatePageFooterLeftText{
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #FFFFFF;
+
+    margin-left: 30px;
+}
+

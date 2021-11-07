@@ -1,0 +1,142 @@
+.mainBlock{
+    background: #4C3D74;
+    width: 100%;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.firstBlock{
+    display: flex;
+    flex-direction: column;
+}
+.firstBlock h1{
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 66px;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin: 168px 0 0 0;
+}
+.spanWhite{
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #FFFFFF;
+}
+
+.secondBlock{
+    display: flex;
+    flex-direction: column;
+}
+
+.secondBlockElement{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 31px;
+}
+
+.elementsBlockRating{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.elementBlockRating{
+    flex: 0 0 50%;
+    margin-top: 20px;
+}
+
+.elementBlockRating h2{
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 66px;
+    margin: 0 !important;
+
+    color: #FFFFFF;
+}
+
+.elementBlockRating span{
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    color: #FFFFFF;
+}
+.secondBlockTextElement{
+    display: flex;
+    flex-direction: column;
+}
+.marginTextBlock{
+    margin-top: 38px;
+}
+.marginSecondTextBlock{
+    margin-top: 18px;
+    padding-bottom: 176px;
+}
+.firstText{
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #FFFFFF;
+}
+.secondBlock h1{
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 66px;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin: 150px 0 0 0;
+}
+
+.fBlockElements{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fBlockElement{
+    display: flex;
+    align-items: center;
+    margin-top: 41px;
+}
+
+.fBlockElement span {
+    margin: 0 0 0 24px;
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #FFFFFF;
+}

@@ -8,3 +8,50 @@
     max-width: 1170px;
     margin: auto;
 }
+
+.middleBlock{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middleLeftBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.middleLeftBlock h1{
+    margin: 19px 0px 27px 0px;
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 66px;
+    color: white;
+}
+
+.standard{
+    margin-top: 100px;
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: white;
+}
+
+.secondary{
+    font-family: Futura;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    color: white;
+}
+
+.buttons button:last-child{
+    margin-left: 24px;
+}
+.buttons{
+    margin-top: 44px;
+}
