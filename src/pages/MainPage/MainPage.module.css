@@ -55,3 +55,21 @@
 .buttons{
     margin-top: 44px;
 }
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+    .container{
+        margin: auto;
+        max-width: 992px;
+    }
+}
+
+@media (max-width: 993px) {
+    .container{
+        margin: auto;
+        max-width: 768px;
+    }
+    .middleBlock{
+        flex-direction: column;
+    }
+}

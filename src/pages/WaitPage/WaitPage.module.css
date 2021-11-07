@@ -140,3 +140,10 @@
 
     color: #FFFFFF;
 }
+
+@media (max-width: 1200px) {
+    .container{
+        margin: auto;
+        max-width: 992px;
+    }
+}

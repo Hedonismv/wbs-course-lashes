@@ -22,3 +22,10 @@
 .questionBlock{
     margin-top: 46px;
 }
+
+@media (max-width: 1200px) {
+    .container{
+        margin: auto;
+        max-width: 992px;
+    }
+}
