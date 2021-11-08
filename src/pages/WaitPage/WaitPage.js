@@ -74,7 +74,7 @@ const WaitPage = () => {
                                     <strong>ХОЧЕШЬ ТАКЖЕ? СМОТРИ ПРОГРАММУ И ЗАПИСЫВАЙСЯ НА ИНТЕНСИВ</strong>.</span>
                             </div>
                         </div>
-                        <div>
+                        <div className={style.svgControlBlock}>
                             <ReactSVG src={MariyaImage}/>
                         </div>
                     </div>

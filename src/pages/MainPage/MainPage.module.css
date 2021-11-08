@@ -71,5 +71,16 @@
     }
     .middleBlock{
         flex-direction: column;
+        align-items: center;
+    }
+    .SvgImageBlock{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        max-width: 576px;
+        margin: auto;
     }
 }

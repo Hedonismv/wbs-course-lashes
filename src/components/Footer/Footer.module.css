@@ -38,3 +38,34 @@
     text-align: center;
     width: 30%;
 }
+
+@media (max-width: 1200px){
+    .container{
+        margin: auto;
+        max-width: 992px;
+    }
+}
+@media (max-width: 992px){
+    .container{
+        margin: auto;
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        margin: auto;
+        max-width: 576px;
+    }
+    .footer{
+        height: 100%;
+    }
+    .footerContent{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .footerContent div {
+        text-align: left;
+    }
+}

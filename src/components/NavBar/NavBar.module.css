@@ -28,3 +28,10 @@
     font-size: 14px;
     line-height: 19px;
 }
+
+
+@media (max-width: 768px){
+    .navbarLink{
+        display: none;
+    }
+}

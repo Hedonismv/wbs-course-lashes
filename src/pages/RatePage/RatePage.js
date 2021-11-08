@@ -22,7 +22,7 @@ const RatePage = () => {
                         <ReactSVG src={GiftSvg}/>
                         <div className={style.RatePageFooterLeftText}>ИДЕТЕ НА ИНТЕНСИВ? ВЫЛОЖИТЕ ОБ ЭТОМ СТОРИС-ШАБЛОН С ОТМЕТКОЙ ЮЛИИ ВОРМАН И ВАС БУДЕТ ЖДАТЬ РОЗЫГРЫШ ДОПОЛНИТЕЛЬНОГО ПОДАРКА!</div>
                     </div>
-                    <div>
+                    <div className={style.btnControl}>
                         <Button color={'secondary'} text={'СТОРИС-ШАБЛОН'}/>
                     </div>
                 </div>

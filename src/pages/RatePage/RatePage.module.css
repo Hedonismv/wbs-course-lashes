@@ -60,8 +60,39 @@
 }
 
 @media (max-width: 992px){
+    .container{
+        max-width: 768px;
+        margin:auto;
+    }
     .rateComponents{
         flex-direction: column;
         align-items: center;
+    }
+
+}
+
+@media (max-width: 768px){
+    .container{
+        max-width: 576px;
+        margin: auto;
+    }
+    .RatePageFooter{
+        flex-direction: column;
+        align-items: center;
+    }
+    .RatePageFooterLeft{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .RatePageFooterLeftText{
+        margin: 25px 0 0 0;
+        text-align: center;
+    }
+    .rateComponents div {
+        margin-top: 25px;
+    }
+    .btnControl{
+        margin-top: 25px;
     }
 }

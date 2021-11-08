@@ -20,7 +20,7 @@ const MainPage = () => {
                         <Button text={'ПРОГРАММА'} color={'secondary'}/>
                         </div>
                     </div>
-                    <div>
+                    <div className={style.SvgImageBlock}>
                         <ReactSVG src={SvgImage}/>
                     </div>
                 </div>
