@@ -35,3 +35,12 @@
         display: none;
     }
 }
+/*4k wide monitors and PC */
+@media (min-width: 1681px){
+    .navbar span{
+        font-size: 20px;
+    }
+    .navbarLink a{
+        font-size: 20px;
+    }
+}

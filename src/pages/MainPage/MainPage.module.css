@@ -4,6 +4,11 @@
     height: 100vh;
 }
 
+.womenSvg{
+    width: 610px;
+    height: 610px;
+}
+
 .container{
     max-width: 1170px;
     margin: auto;
@@ -54,6 +59,22 @@
 }
 .buttons{
     margin-top: 44px;
+}
+/*4k wide monitors and PC */
+@media (min-width: 1681px){
+    .container{
+        max-width: 1780px;
+        margin: auto;
+    }
+    .middleLeftBlock h1{
+        font-size: 54px;
+    }
+    .secondary{
+        font-size: 24px;
+    }
+    .standard{
+        font-size: 24px;
+    }
 }
 
 /* Large devices (desktops, less than 1200px) */

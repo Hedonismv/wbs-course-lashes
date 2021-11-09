@@ -26,3 +26,12 @@
     position: relative;
     top: 20px;
 }
+
+/*4k wide monitors and PC */
+@media (min-width: 1681px){
+    .button {
+        font-size: 20px;
+        width: 300px;
+        height: 70px;
+    }
+}

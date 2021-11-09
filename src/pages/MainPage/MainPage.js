@@ -21,7 +21,13 @@ const MainPage = () => {
                         </div>
                     </div>
                     <div className={style.SvgImageBlock}>
-                        <ReactSVG src={SvgImage}/>
+                        {console.log(window.screen.width)}
+                        {window.screen.width > 1680
+                            ? <ReactSVG src={SvgImage} beforeInjection={(svg) => {
+                                svg.classList.add(style.womenSvg)
+                                svg.setAttribute('style', 'width: 610px', 'height: 610px')
+                            }}/>
+                            : <ReactSVG src={SvgImage}/>}
                     </div>
                 </div>
             </div>
