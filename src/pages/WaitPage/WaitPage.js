@@ -3,6 +3,7 @@ import style from './WaitPage.module.css';
 import {ReactSVG} from "react-svg";
 import SvgImage from './star-struck_1f929.svg';
 import MariyaImage from './MARIA_LYADOVA-2 1.svg';
+import ImageWoman from './MARIA_LYADOVA-2 1.jpg';
 
 const WaitPage = () => {
     return (
@@ -75,7 +76,7 @@ const WaitPage = () => {
                             </div>
                         </div>
                         <div className={style.svgControlBlock}>
-                            <ReactSVG src={MariyaImage}/>
+                            <img src={ImageWoman} className={style.womanImageMariya}/>
                         </div>
                     </div>
                 </div>

@@ -69,3 +69,9 @@
         text-align: left;
     }
 }
+
+@media (max-width: 576px){
+    .footerContent{
+        font-size: 12px;
+    }
+}

@@ -116,4 +116,14 @@
         max-width: 375px;
         margin: auto;
     }
+    .container h1 {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        margin: 93px 0px 43px 0px;
+    }
+    .womenSvg{
+        width: 215px;
+        height: 215px;
+    }
 }

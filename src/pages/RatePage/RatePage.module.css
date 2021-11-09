@@ -90,7 +90,7 @@
         text-align: center;
     }
     .rateComponents div {
-        margin-top: 25px;
+        margin-top: 40px;
     }
     .btnControl{
         margin-top: 25px;
@@ -100,5 +100,11 @@
     .container {
         max-width: 375px;
         margin: auto;
+    }
+    .topH1{
+        padding-top: 90px;
+        margin: 0 0 45px 0;
+        font-size: 30px;
+        line-height: 40px;
     }
 }

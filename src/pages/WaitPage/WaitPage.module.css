@@ -181,4 +181,23 @@
         max-width: 375px;
         margin: auto;
     }
+    .secondBlock h1{
+        font-size: 30px;
+        line-height: 150%;
+        text-align: center;
+
+        color: #FFFFFF;
+        margin: 85px 0 0 0;
+    }
+    .elementBlockRating h2{
+        font-size: 30px;
+        line-height: 40px;
+        margin: 0 !important;
+
+        color: #FFFFFF;
+    }
+    .womanImageMariya{
+        width: 303px;
+        height: 373px;
+    }
 }

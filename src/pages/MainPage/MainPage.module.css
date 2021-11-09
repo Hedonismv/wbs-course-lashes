@@ -119,3 +119,10 @@
         width: 300px;
     }
 }
+
+@media (max-width: 375px){
+    .container{
+        max-width: 355px;
+        margin: auto;
+    }
+}

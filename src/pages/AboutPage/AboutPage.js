@@ -22,7 +22,10 @@ const AboutPage = () => {
                         <span>ЗАРЯДИСЬ ЭНЕРГИЕЙ И СТАНЬ САМЫМ<br/>ЗНАМЕНИТЫМ МАСТЕРОМ СВОЕГО ГОРОДА</span>
                         <Button color={'primary'} text={'ЗАПИСАТЬСЯ'}/>
                         <div className={style.svg}>
-                            <ReactSVG src={WomenImg}/>
+                            <ReactSVG src={WomenImg}   beforeInjection={(svg) => {
+                                svg.classList.add(style.womenSvg)
+                                svg.setAttribute('style', 'width: 215px', 'height: 215px')
+                            }}/>
                         </div>
                     </div>
                 </div>

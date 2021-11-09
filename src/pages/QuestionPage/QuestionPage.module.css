@@ -49,4 +49,9 @@
         max-width: 375px;
         margin: auto;
     }
+    .topTag{
+        font-size: 30px;
+        line-height: 150%;
+        margin: 94px 0 0 0;
+    }
 }
