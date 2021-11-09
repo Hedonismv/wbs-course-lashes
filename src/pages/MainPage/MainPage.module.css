@@ -84,3 +84,38 @@
         margin: auto;
     }
 }
+@media (max-width: 576px){
+    .container{
+        max-width: 375px;
+        margin: auto;
+    }
+    .middleLeftBlock h1{
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .standard{
+        margin-top: 100px;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+    }
+    .secondary{
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+    }
+    .buttons button:last-child{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .buttons{
+        margin-top: 44px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .buttons button{
+        width: 300px;
+    }
+}

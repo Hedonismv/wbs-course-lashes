@@ -96,3 +96,9 @@
         margin-top: 25px;
     }
 }
+@media (max-width: 576px) {
+    .container {
+        max-width: 375px;
+        margin: auto;
+    }
+}
