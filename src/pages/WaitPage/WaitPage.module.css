@@ -201,3 +201,10 @@
         height: 373px;
     }
 }
+@media (max-width: 375px){
+    .container{
+        max-width: 355px;
+        margin: auto;
+    }
+}
+

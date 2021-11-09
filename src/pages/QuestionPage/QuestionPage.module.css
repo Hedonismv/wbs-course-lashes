@@ -55,3 +55,9 @@
         margin: 94px 0 0 0;
     }
 }
+@media (max-width: 375px){
+    .container{
+        max-width: 355px;
+        margin: auto;
+    }
+}
