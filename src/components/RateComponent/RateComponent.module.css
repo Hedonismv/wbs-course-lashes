@@ -104,3 +104,8 @@
     line-height: 150%;
     color: #4C3D74;
 }
+@media (max-width: 320px){
+    .rateComponent{
+        width: 300px;
+    }
+}

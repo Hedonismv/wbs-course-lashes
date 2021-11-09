@@ -200,6 +200,11 @@
         width: 303px;
         height: 373px;
     }
+    .firstBlock h1{
+        font-size: 30px;
+        line-height: 150%;
+        margin: 91px 0 0 0;
+    }
 }
 @media (max-width: 375px){
     .container{

@@ -71,6 +71,9 @@
         margin: auto;
         max-width: 992px;
     }
+    .features div{
+        width: 315px;
+    }
 }
 
 @media (max-width: 993px){
@@ -132,5 +135,11 @@
     .container{
         max-width: 355px;
         margin: auto;
+    }
+}
+
+@media (max-width: 320px){
+    .features div{
+        width: 300px;
     }
 }
